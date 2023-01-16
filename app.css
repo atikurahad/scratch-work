@@ -3,6 +3,21 @@
   margin: 0;
   padding: 0;
 }
+.navbar{
+  background: #000;
+  padding: 12px;
+}
+a{
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* direction: ltr; */
+  cursor:grab;
+  font-size: 1.5rem;
+  padding: 12px;
+  color: gold;
+  background: #0000;
+  text-decoration: none;
+}
 
 .welcome{
   height: 3rem;
@@ -13,22 +28,21 @@
 }
 
 .footer-container{
-  height: 8rem;
+  height: 3rem;
   background: rgb(165, 73, 82);
-    background: linear-gradient(34deg, rgba(165, 73, 82, 1) 0%, rgba(202, 48, 106, 1) 0%, rgba(47, 154, 7, 1) 0%, rgba(0, 121, 55, 1) 0%, rgba(96, 82, 31, 1) 12%, rgba(85, 10, 72, 1) 64%);
+    background: linear-gradient(rgb(126, 32, 48) ,purple);
 }
 .hero-para{
   color: white;
   font-size:  2rem;;
-  margin: auto ;
+  margin-top: auto ;
   text-align: center;
 }
 .hero-section{
  height: 21rem;
- border: 2px solid oldlace;
+ margin-right: 3rem;
 }
 .profile{
-  border: 1px solid red;
   display: flex;
   gap: 2rem;
 }
