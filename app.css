@@ -1,0 +1,42 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.welcome{
+  height: 3rem;
+  text-align: center;
+  color: bisque;
+  background: rgb(34, 38, 27);
+    background: linear-gradient(169deg, rgba(34, 38, 27, 1) 19%, rgba(2, 0, 36, 1) 33%, rgba(102, 121, 9, 1) 38%, rgba(21, 125, 113, 1) 43%, rgba(24, 33, 16, 1) 61%, rgba(0, 212, 255, 1) 100%);
+}
+
+.footer-container{
+  height: 8rem;
+  background: rgb(165, 73, 82);
+    background: linear-gradient(34deg, rgba(165, 73, 82, 1) 0%, rgba(202, 48, 106, 1) 0%, rgba(47, 154, 7, 1) 0%, rgba(0, 121, 55, 1) 0%, rgba(96, 82, 31, 1) 12%, rgba(85, 10, 72, 1) 64%);
+}
+.hero-para{
+  color: white;
+  font-size:  2rem;;
+  margin: auto ;
+  text-align: center;
+}
+.hero-section{
+ height: 21rem;
+ border: 2px solid oldlace;
+}
+.profile{
+  border: 1px solid red;
+  display: flex;
+  gap: 2rem;
+}
+.profile-detail{
+  margin: auto;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #3A3D42;
+  font-weight: 300;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
