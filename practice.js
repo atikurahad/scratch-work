@@ -20,3 +20,15 @@ let about = `Hi my name is afia.
  I am a web developer.
  i love to eat pizza.`
 console.log(about);
+
+
+ const hero = (friends) =>{
+
+    for (let friend of friends) {
+      if (friend.length % 2 === 0) {
+        console.log(friend);
+      }
+    }
+ }
+hero( ["rakib",'', "abir","shohel","tomal", "nidi", "rahim", "karim", "raza"]
+);
