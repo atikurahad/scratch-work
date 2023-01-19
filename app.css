@@ -39,7 +39,7 @@ a{
   text-align: center;
 }
 .hero-section{
- height: 30rem;
+ height: 25rem;
 
 }
 .profile{
@@ -55,7 +55,7 @@ a{
 .profile-detail{
   margin: auto;
   text-align: center;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   color: #3A3D42;
   font-weight: 300;
  font-family: 'Inconsolata', monospace;

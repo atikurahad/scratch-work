@@ -32,3 +32,15 @@ console.log(about);
  }
 hero( ["rakib",'', "abir","shohel","tomal", "nidi", "rahim", "karim", "raza"]
 );
+
+    console.log(number3)
+
+    const maxNum =(a)=>{
+
+   const number1 = [1, 2, 3, 4, 5];
+   const number2 = [6, 7, 8, 9, 10];
+   const number3 = [...number1, ...number2];
+
+   return Math.max(...a);
+    }
+ maxNum(...number3);
