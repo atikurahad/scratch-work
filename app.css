@@ -132,19 +132,32 @@ a {
 
 .footer-container {
   height: 12rem;
-  background: #164465;
-  /* background: linear-gradient(rgb(126, 32, 48), purple); */
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  align-content: center;
+    justify-items: center;
+  background:#0e1015;
 }
 .copyright {
   font-size: 1.5rem;
-  color: salmon;
-  text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+ }
+ .foot-noob:hover{
+  color:#745cf9 ;
+  font-family: monospace
+ }
 .social-icon {
-  display: flex;
-  flex-direction: column-reverse;
+  /* display: flex; */
+  /* flex-direction: column-reverse; */
   font-size: 2.5rem;
+  color: white;
   text-decoration: none;
+  margin-left: auto;
+  margin-right: 1.5rem;
   /* background: #000; */
+}
+
+.social-icon:hover{
+  color: #694ffc ;
 }
