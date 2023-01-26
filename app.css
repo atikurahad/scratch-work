@@ -129,7 +129,23 @@ a {
   font-weight: 300;
   font-family: "Inconsolata", monospace;
 }
-
+.motivate{
+  display: grid;
+  grid-template-columns:  1fr;
+  height: 24rem;
+  background: #745CF9;
+  border: 1px solid skyblue;
+}
+.motivated{
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+}
 .footer-container {
   height: 12rem;
   display: grid;
@@ -157,7 +173,12 @@ a {
   margin-right: 1.5rem;
   /* background: #000; */
 }
-
+#fb-icon:hover{
+  color: blue;
+}
+#twitter-icon:hover{
+  color: blue;
+}
 .social-icon:hover{
-  color: #694ffc ;
+  color: red;
 }
